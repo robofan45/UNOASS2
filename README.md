@@ -1,6 +1,6 @@
 UNO Card Recognition System
 Overview
-This project develops a system to recognize UNO cards from images or a live camera feed using Python, OpenCV, and a Support Vector Machine (SVM) classifier. The system preprocesses images to extract Histogram of Oriented Gradients (HOG) features, which are then used to train an SVM for recognizing the card type based on its color and number.
+This project develops a system to recognize UNO cards from images or a live camera feed using Python, OpenCV, and a Support Vector Machine (SVM) classifier. The system preprocesses images to extract Histogram of Oriented Gradients (HOG) features, which are then used to train an SVM to recognize the card type based on its colour and number.
 
 Requirements
 Python 3.8 or higher
@@ -21,7 +21,7 @@ The dataset should consist of images of UNO cards, each labeled according to the
 makefile
 Copy code
 C:\Users\MAHIM TRIVEDI\Downloads\UNO
-Each image should be named in the format color_number.jpg (e.g., red_3.jpg).
+Each image should be named color_number.jpg (e.g., red_3.jpg).
 
 Usage
 To run the card recognition system, execute the main script. This can be done from the command line as follows:
@@ -44,3 +44,6 @@ detect_and_track_cards(frame, model): Detects and recognizes cards from a video 
 main(): Main function to execute the program, handling dataset loading, model training, and real-time card recognition.
 Contributing
 Feel free to fork this repository and submit pull requests to enhance the functionalities of the UNO card recognition system. You can also open issues for any bugs found or improvements suggested.
+
+License
+This project is open-source and available under the MIT License.
